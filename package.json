@@ -41,7 +41,8 @@
     "pub": "npm run build && npm version patch && git push --follow-tags",
     "sync": "git ac && git pull --rebase && git push",
     "docs": "typedoc",
-    "coverage": "nyc npm test"
+    "coverage": "nyc npm test",
+    "release-for-arm64": "./scripts/release-for-arm64.sh"
   },
   "author": "PeculiarVentures",
   "license": "MIT",
