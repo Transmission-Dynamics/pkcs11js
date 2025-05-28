@@ -42,7 +42,7 @@
     "sync": "git ac && git pull --rebase && git push",
     "docs": "typedoc",
     "coverage": "nyc npm test",
-    "release-for-arm64": "./scripts/release-for-arm64.sh"
+    "create-prebuilds": "./scripts/create-prebuilds.sh"
   },
   "author": "PeculiarVentures",
   "license": "MIT",
