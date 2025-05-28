@@ -1,7 +1,9 @@
 #!/bin/bash
 cd "$(dirname "$0")"
 
-OUT_DIR="$(pwd)/../release/pkcs11js/arm64"
+rm -fr ../release
+
+OUT_DIR="$(pwd)/../release/arm64/pkcs11js"
 mkdir -p ${OUT_DIR}/build/Release/
 
 # Build the container

@@ -1,5 +1,5 @@
 // Type definitions for pkcs11js v1.1.2
-// Project: https://github.com/PeculiarVentures/pkcs11js
+// Project: https://github.com/Transmission-Dynamics/pkcs11js
 // Definitions by: Stepan Miroshin <https://github.com/microshine>
 
 /// <reference types="node" />

@@ -1,10 +1,10 @@
 {
-  "name": "pkcs11js",
+  "name": "@transmission-dynamics/pkcs11js",
   "version": "2.1.6",
   "description": "A Node.js implementation of the PKCS#11 2.40 interface",
   "repository": {
     "type": "git",
-    "url": "git://github.com/PeculiarVentures/pkcs11js.git"
+    "url": "git://github.com/Transmission-Dynamics/pkcs11js.git"
   },
   "keywords": [
     "pkcs11",
@@ -55,7 +55,7 @@
     "typescript": "^5.5.4"
   },
   "bugs": {
-    "url": "https://github.com/PeculiarVentures/pkcs11js/issues"
+    "url": "https://github.com/Transmission-Dynamics/pkcs11js/issues"
   },
   "mocha": {
     "watch-files": "test/**/*.js"
@@ -69,9 +69,5 @@
       "text-summary",
       "html"
     ]
-  },
-  "funding": {
-    "type": "github",
-    "url": "https://github.com/sponsors/PeculiarVentures"
   }
 }

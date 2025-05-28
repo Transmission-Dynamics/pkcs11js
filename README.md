@@ -1,19 +1,10 @@
 # PKCS11js
 
-[![license](https://img.shields.io/badge/license-MIT-green.svg?style=flat)](https://raw.githubusercontent.com/PeculiarVentures/graphene/master/LICENSE)
-![test](https://github.com/PeculiarVentures/pkcs11js/workflows/test/badge.svg)
-[![Coverage Status](https://coveralls.io/repos/github/PeculiarVentures/pkcs11js/badge.svg?branch=master)](https://coveralls.io/github/PeculiarVentures/pkcs11js?branch=master)
-[![npm version](https://badge.fury.io/js/pkcs11js.svg)](https://badge.fury.io/js/pkcs11js)
-
-[![NPM](https://nodei.co/npm/pkcs11js.png)](https://nodei.co/npm/pkcs11js/)
-
 PKCS11js is a package for direct interaction with the PKCS#11 API, the standard interface for interacting with hardware crypto devices such as Smart Cards and Hardware Security Modules (HSMs). It was developed to the PKCS#11 2.40 specification and has been tested with a variety of devices.
 
 **Versioning Note:** 
 - Version 1.x was implemented using the `nan` module, which allowed the package to be built for older versions of Node.js.
 - Starting from version 2.x, the module has been rewritten to use `napi`. As a result, the minimum required Node.js version is now v18.
-
-For most use cases, we recommend our package [Graphene](https://github.com/PeculiarVentures/graphene), which provides a simplistic Object Oriented interface for interacting with PKCS#11 devices.
 
 This was developed to the PKCS#11 2.40 specification. It should be easy enough to extend it for any new versions at a later date.
 
@@ -28,7 +19,7 @@ It has been tested with :
 ## Installation
 
 ```
-$ npm install pkcs11js
+$ npm install @transmission-dynamics/pkcs11js
 ```
 
 ## Documentation
@@ -46,7 +37,7 @@ $ npm install pkcs11js
 ### Example #1
 
 ```javascript
-var pkcs11js = require("pkcs11js");
+var pkcs11js = require("@transmission-dynamics/pkcs11js");
 
 var pkcs11 = new pkcs11js.PKCS11();
 pkcs11.load("/usr/local/lib/softhsm/libsofthsm2.so");
